@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#1A237E"
+    android:padding="24dp"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome"
+        android:textColor="@android:color/white"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="32dp" />
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/email"
+        android:textColorHint="#BDBDBD"
+        android:textColor="@android:color/white"
+        android:backgroundTint="#FF4081"
+        android:inputType="textEmailAddress"
+        android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/password"
+        android:textColorHint="#BDBDBD"
+        android:textColor="@android:color/white"
+        android:backgroundTint="#FF4081"
+        android:inputType="textPassword"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login"
+        android:backgroundTint="#FF4081"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/tvSignup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/no_account"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="40dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/tvVi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tiếng Việt"
+            android:textColor="@android:color/white"
+            android:padding="8dp" />
+
+        <TextView
+            android:id="@+id/tvEn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="English"
+            android:textColor="@android:color/white"
+            android:padding="8dp" />
+
+        <TextView
+            android:id="@+id/tvFr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Français"
+            android:textColor="@android:color/white"
+            android:padding="8dp" />
+    </LinearLayout>
+
+</LinearLayout>
