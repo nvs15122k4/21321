@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <ImageView android:id="@+id/iv_face1" android:layout_width="80dp" android:layout_height="80dp" android:src="@drawable/ic_angry" />
+        <ImageView android:id="@+id/iv_face2" android:layout_width="80dp" android:layout_height="80dp" android:layout_marginStart="8dp" android:src="@drawable/ic_baffle" />
+        <ImageView android:id="@+id/iv_face3" android:layout_width="80dp" android:layout_height="80dp" android:layout_marginStart="8dp" android:src="@drawable/ic_beauty" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center">
+        <ImageView android:id="@+id/iv_face4" android:layout_width="80dp" android:layout_height="80dp" android:src="@drawable/ic_boss" />
+        <ImageView android:id="@+id/iv_face5" android:layout_width="80dp" android:layout_height="80dp" android:layout_marginStart="8dp" android:src="@drawable/ic_choler" />
+        <ImageView android:id="@+id/iv_face6" android:layout_width="80dp" android:layout_height="80dp" android:layout_marginStart="8dp" android:src="@drawable/ic_dribble" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center">
+        <ImageView android:id="@+id/iv_face7" android:layout_width="80dp" android:layout_height="80dp" android:src="@drawable/ic_look_down" />
+        <ImageView android:id="@+id/iv_face8" android:layout_width="80dp" android:layout_height="80dp" android:layout_marginStart="8dp" android:src="@drawable/ic_sure" />
+        <ImageView android:id="@+id/iv_face9" android:layout_width="80dp" android:layout_height="80dp" android:layout_marginStart="8dp" android:src="@drawable/ic_tire" />
+    </TableRow>
+
+    <Button
+        android:id="@+id/btn_random"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Random Emoji"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/bg_login"
+        android:textColor="@color/white" />
+</LinearLayout>

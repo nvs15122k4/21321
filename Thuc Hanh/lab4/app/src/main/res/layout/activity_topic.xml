@@ -1,0 +1,19 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <Button
+        android:id="@+id/btnFood"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chủ đề: Thức ăn" />
+
+    <Button
+        android:id="@+id/btnAnimal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chủ đề: Động vật"
+        android:layout_marginTop="16dp" />
+</LinearLayout>
