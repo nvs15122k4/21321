@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFF8FB"
+    android:padding="20dp"
+    tools:context=".QuickCallActivity">
+
+    <include layout="@layout/actionbar_home" />
+
+    <!-- Mom -->
+    <LinearLayout
+        android:id="@+id/fr_mom"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:background="@drawable/bg_radius"
+        android:backgroundTint="#FFF176"
+        android:paddingStart="20dp"
+        android:tag="@string/phone_mom">
+
+        <ImageView
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:src="@drawable/ic_phone_yellow"
+            android:layout_marginEnd="20dp"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_mom"
+            android:textSize="28sp"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif-medium" />
+    </LinearLayout>
+
+    <!-- Dad -->
+    <LinearLayout
+        android:id="@+id/fr_dad"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:background="@drawable/bg_radius"
+        android:backgroundTint="#81D4FA"
+        android:paddingStart="20dp"
+        android:tag="@string/phone_dad">
+
+        <ImageView
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:src="@drawable/ic_phone_blue"
+            android:layout_marginEnd="20dp"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_dad"
+            android:textSize="28sp"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif-medium" />
+    </LinearLayout>
+
+    <!-- Crush -->
+    <LinearLayout
+        android:id="@+id/fr_crush"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:background="@drawable/bg_radius"
+        android:backgroundTint="#EF9A9A"
+        android:paddingStart="20dp"
+        android:tag="@string/phone_crush">
+
+        <ImageView
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:src="@drawable/ic_phone_red"
+            android:layout_marginEnd="20dp"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_crush"
+            android:textSize="28sp"
+            android:textColor="@color/white"
+            android:fontFamily="sans-serif-medium" />
+    </LinearLayout>
+
+    <!-- Best Friend -->
+    <LinearLayout
+        android:id="@+id/fr_best_friend"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:background="@drawable/bg_radius"
+        android:backgroundTint="#A5D6A7"
+        android:paddingStart="20dp"
+        android:tag="@string/phone_best_friend">
+
+        <ImageView
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:src="@drawable/ic_phone_green"
+            android:layout_marginEnd="20dp"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_best_friend"
+            android:textSize="28sp"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif-medium" />
+    </LinearLayout>
+
+</LinearLayout>
