@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Đổi đơn vị đo chiều dài</string>
+
+    <string-array name="units">
+        <item>Hải lý</item>      <!-- Nautical mile -->
+        <item>Dặm</item>         <!-- Mile -->
+        <item>Kilometer</item>
+        <item>Lý</item>
+        <item>Mét</item>
+        <item>Yard</item>
+        <item>Foot</item>
+        <item>Inches</item>
+    </string-array>
+</resources>

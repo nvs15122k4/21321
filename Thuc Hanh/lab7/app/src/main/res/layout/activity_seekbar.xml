@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- TITLE -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose Color"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="12dp"/>
+
+    <!-- PANEL RGB -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <!-- RED -->
+        <TextView
+            android:id="@+id/txtR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="R = 0" />
+
+        <SeekBar
+            android:id="@+id/seekR"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="255" />
+
+        <!-- GREEN -->
+        <TextView
+            android:id="@+id/txtG"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="G = 0"
+            android:layout_marginTop="12dp"/>
+
+        <SeekBar
+            android:id="@+id/seekG"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="255" />
+
+        <!-- BLUE -->
+        <TextView
+            android:id="@+id/txtB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="B = 0"
+            android:layout_marginTop="12dp"/>
+
+        <SeekBar
+            android:id="@+id/seekB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="255" />
+
+    </LinearLayout>
+
+    <!-- PANEL RGB (COLOR PREVIEW) -->
+    <View
+        android:id="@+id/viewRGB"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginTop="16dp"
+        android:background="#000000" />
+
+    <!-- PANEL CMY (COLOR PREVIEW) -->
+    <View
+        android:id="@+id/viewCMY"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginTop="16dp"
+        android:background="#FFFFFF" />
+
+</LinearLayout>
