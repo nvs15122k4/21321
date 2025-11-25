@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_marginBottom="8dp"
+    tools:ignore="UseCompoundDrawables">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:padding="8dp"
+            android:rotation="0"
+            android:src="@drawable/ic_face"
+            app:tint="@color/greenMid"
+            tools:ignore="ContentDescription"/>
+
+        <TextView
+            android:id="@+id/tv_story"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="10dp"
+            android:fontFamily="sans-serif"
+            android:gravity="center_vertical"
+            android:text="@string/txt_story"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+    </TableRow>
+</LinearLayout>
