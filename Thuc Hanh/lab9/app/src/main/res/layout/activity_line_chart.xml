@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Biểu đồ đường"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nhập dữ liệu (kWh):"
+        android:textSize="16sp"
+        android:layout_marginBottom="8dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/etLine1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="3"
+            android:inputType="number"
+            android:text="3"
+            android:gravity="center"/>
+
+        <EditText
+            android:id="@+id/etLine2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="6"
+            android:inputType="number"
+            android:text="6"
+            android:gravity="center"
+            android:layout_marginStart="4dp"/>
+
+        <EditText
+            android:id="@+id/etLine3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="8"
+            android:inputType="number"
+            android:text="8"
+            android:gravity="center"
+            android:layout_marginStart="4dp"/>
+
+        <EditText
+            android:id="@+id/etLine4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="7"
+            android:inputType="number"
+            android:text="7"
+            android:gravity="center"
+            android:layout_marginStart="4dp"/>
+
+        <EditText
+            android:id="@+id/etLine5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="2"
+            android:inputType="number"
+            android:text="2"
+            android:gravity="center"
+            android:layout_marginStart="4dp"/>
+
+        <EditText
+            android:id="@+id/etLine6"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="3"
+            android:inputType="number"
+            android:text="3"
+            android:gravity="center"
+            android:layout_marginStart="4dp"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnDrawLine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Draw"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"/>
+
+    <com.example.lab9.LineChartView
+        android:id="@+id/lineChartView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#000000"/>
+</LinearLayout>
