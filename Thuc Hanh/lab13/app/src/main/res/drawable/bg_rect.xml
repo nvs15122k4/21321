@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- File: res/drawable/bg_rect.xml - Nếu không có file PNG -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <gradient
+        android:angle="135"
+        android:startColor="@color/orangeMid"
+        android:endColor="@color/orange"/>
+</shape>

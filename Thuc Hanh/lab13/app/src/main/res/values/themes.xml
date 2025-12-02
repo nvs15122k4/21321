@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Theme chính của ứng dụng - không có ActionBar -->
+    <style name="Theme.Lab13" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/orange</item>
+        <item name="colorPrimaryDark">@color/orangeMid</item>
+        <item name="colorAccent">@color/orange</item>
+    </style>
+</resources>

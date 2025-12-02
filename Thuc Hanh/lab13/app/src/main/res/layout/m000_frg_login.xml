@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Layout cho màn hình đăng nhập -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray"
+    android:orientation="vertical">
+
+    <!-- Frame layout chứa phần header với background gradient -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- View background gradient cho phần trên -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:background="@drawable/bg_top"/>
+
+        <!-- TextView hiển thị text "Login" ở góc phải -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginTop="220dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginRight="30dp"
+            android:text="@string/txt_login"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+    </FrameLayout>
+
+    <!-- EditText nhập Email -->
+    <EditText
+        android:autofillHints="Email"
+        android:inputType="textEmailAddress"
+        android:id="@+id/edt_email"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="3dp"
+        android:background="@drawable/bg_radius"
+        android:drawableLeft="@drawable/ic_email"
+        android:drawablePadding="10dp"
+        android:hint="@string/hint_email"
+        android:padding="10dp"
+        android:textSize="18sp" />
+
+    <!-- EditText nhập Password -->
+    <EditText
+        android:autofillHints="Password"
+        android:inputType="textPassword"
+        android:id="@+id/edt_pass"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="3dp"
+        android:background="@drawable/bg_radius"
+        android:drawableLeft="@drawable/ic_key"
+        android:drawablePadding="10dp"
+        android:hint="@string/hint_password"
+        android:padding="10dp"
+        android:textSize="18sp" />
+
+    <!-- TextView "Forgot password?" -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
+        android:text="@string/txt_forgot_pass"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <!-- TextView đóng vai trò là nút Login -->
+    <TextView
+        android:id="@+id/tv_login"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="end"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/bg_login"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/txt_login"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+    <!-- TableRow chứa text "Don't have an account?" và "Register" -->
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center">
+
+        <!-- TextView "Don't have an account?" -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:text="@string/txt_no_account"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+        <!-- TextView "Register" - có thể click để chuyển màn hình -->
+        <TextView
+            android:id="@+id/tv_register"
+            android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:text="@string/txt_register"
+            android:textColor="@color/orange"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+    </TableRow>
+
+</LinearLayout>

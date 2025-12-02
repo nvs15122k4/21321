@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Background cho các ô nhập liệu với viền bo tròn -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Layer dưới cùng - có thể là ảnh hoặc shape -->
+    <item android:drawable="@drawable/bg_rect" />
+
+    <!-- Layer trên - hình chữ nhật trắng bo góc với khoảng cách dưới 3dp -->
+    <item android:bottom="3dp">
+        <shape>
+            <!-- Bo góc 20dp -->
+            <corners android:radius="20dp"/>
+            <!-- Màu trắng -->
+            <solid android:color="#ffffff" />
+        </shape>
+    </item>
+</layer-list>

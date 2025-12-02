@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Tên ứng dụng -->
+    <string name="app_name">Login</string>
+
+    <!-- Text cho các nút và tiêu đề -->
+    <string name="txt_login">Login</string>
+    <string name="txt_register">Register</string>
+
+    <!-- Hint cho các ô nhập liệu -->
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+
+    <!-- Text cho các chức năng phụ -->
+    <string name="txt_forgot_pass">Forgot password?</string>
+    <string name="txt_no_account">Don\'t have an account ?</string>
+</resources>

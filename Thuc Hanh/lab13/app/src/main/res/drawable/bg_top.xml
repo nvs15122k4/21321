@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Background cho phần header với góc bo tròn dưới bên trái -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Bo góc dưới bên trái 100dp -->
+    <corners android:bottomLeftRadius="100dp" />
+
+    <!-- Gradient từ orangeMid đến orange, góc 145 độ -->
+    <gradient
+        android:angle="145"
+        android:endColor="@color/orange"
+        android:startColor="@color/orangeMid"/>
+</shape>

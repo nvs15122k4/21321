@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Background cho nút Login/Register với gradient cam -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Layer dưới cùng -->
+    <item android:drawable="@drawable/bg_rect" />
+
+    <!-- Layer trên - gradient cam với viền bo tròn -->
+    <item android:bottom="3dp">
+        <shape>
+            <!-- Bo góc 20dp -->
+            <corners android:radius="20dp"/>
+            <!-- Gradient từ orangeMid đến orange, góc 180 độ -->
+            <gradient
+                android:angle="180"
+                android:endColor="@color/orange"
+                android:startColor="@color/orangeMid"/>
+        </shape>
+    </item>
+</layer-list>
